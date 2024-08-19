@@ -22,7 +22,7 @@ This project outlines a data pipeline for ingesting Walmart data into BigQuery. 
 [Image of data pipeline architecture]
 
 ### Airflow DAG Structure
-!((https://github.com/Devcoding17/Walmart-Data-Ingestion-into-BigQuery/blob/main/walmart.png))
+!(https://github.com/Devcoding17/Walmart-Data-Ingestion-into-BigQuery/blob/main/walmart.png)
 
 ### Code Structure
 
