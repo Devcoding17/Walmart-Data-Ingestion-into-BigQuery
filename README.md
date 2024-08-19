@@ -1,23 +1,28 @@
-# Walmart-Data-Ingestion-into-BigQuery
-# Overview:
-This project outlines the implementation of a data pipeline for ingesting Walmart data into BigQuery. The pipeline utilizes Python, Airflow, GCP Storage, and BigQuery to create dimension and staging tables, followed by an upsert operation into a fact table using a BigQuery Merge query.
+# Walmart Data Ingestion Pipeline
 
-# Tech Stack:
+**#dataengineering #bigquery #airflow #python #gcp #datawarehouse**
 
-Python
-Airflow
-GCP Storage
-BigQuery
-Data Flow:
+### Overview
+This project outlines a data pipeline for ingesting Walmart data into BigQuery. The pipeline leverages Python, Airflow, GCP Storage, and BigQuery to create dimension and staging tables, followed by an upsert operation into a fact table using a BigQuery Merge query.
 
-Data extraction from Walmart source
-Data loading into GCP Storage
-Dimension and staging table creation using Airflow and BigQuery
-Data loading into dimension and staging tables
-Fact table upsert using BigQuery Merge query
-Architecture:
-[Include architecture diagram]
+### Tech Stack
+* Python
+* Airflow
+* GCP Storage
+* BigQuery
 
-Airflow DAG:
-[Include Airflow DAG diagram]
+### Data Flow
+1. **Data Extraction:** Walmart data is extracted from [data source] in [format].
+2. **Data Loading:** Extracted data is loaded into GCP Storage.
+3. **Data Transformation:** Airflow orchestrates the creation of dimension and staging tables in BigQuery.
+4. **Data Loading:** Transformed data is loaded into the respective dimension and staging tables.
+5. **Data Integration:** Airflow executes a BigQuery Merge query to upsert data into the fact table based on dimension and staging tables.
+
+### Architecture Diagram
+[Image of data pipeline architecture]
+
+### Airflow DAG Structure
+[Image of Airflow DAG]
+
+### Code Structure
 
