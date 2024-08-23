@@ -19,7 +19,8 @@ This project outlines a data pipeline for ingesting Walmart data into BigQuery. 
 5. **Data Integration:** Airflow executes a BigQuery Merge query to upsert data into the fact table based on dimension and staging tables.
 
 ### Architecture Diagram
-[Image of data pipeline architecture]
+[
+]
 
 ### Airflow DAG Structure
 
